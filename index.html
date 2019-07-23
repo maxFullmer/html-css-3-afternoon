@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        header
+        <div id="fancyfont">Start Bootstrap</div>
+        <nav class="navList" id="myNavList">
+                <button class="icon" onclick="hamburgerMenu()">MENU</button>
+                <a href="#">SERVICES</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">ABOUT</a>
+                <a href="#">TEAM</a>
+                <a href="#">CONTACT</a>
+        </nav>
     </header>
     <main>
-
+        <section id="greeting">
+            <p><i>Welcome To Our Studio!</i></p>
+            <p id="greetingLine2">IT'S NICE TO <br> MEET YOU</p>
+            <button id="greetingLine3">TELL ME MORE</button>
+        </section>
+        <section class="service">
+            <h1>SERVICE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellendus recusandae nam perspiciatis, non quos laboriosam? Dolorum hic nihil nostrum cupiditate libero voluptate magni, non sunt eos in minus dolores.</p>
+        </section>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
